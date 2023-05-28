@@ -9,7 +9,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--primary-black-color);
+    color: var(--primary-accent-color);
+    background-color: var(--primary-white-color);
 }
 /**-----------------HEADER-------------------*/
 .link {
@@ -62,6 +63,7 @@ body {
     color: var(--primary-accent-color);
 }
 
+
 /**-----------------HERO-------------------*/
 
 .hero {
@@ -97,13 +99,13 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--primary-black-color);
 }
 
 .benefits-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-accent-color);
 }
 
 /**-----------------DOING-------------------*/
@@ -115,6 +117,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--primary-black-color);
 }
 
 /**----------------TEAM-------------------*/
@@ -130,7 +133,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2E2F42;
+    color: var(--primary-black-color);
 }
 
 .team-subtitle {
@@ -138,13 +141,13 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--primary-black-color);
 }
 
 .team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--primary-accent-color);
 }
 
 /**----------------FOOTER-------------------*/
@@ -206,5 +209,4 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--primary-accent-color);
 }
