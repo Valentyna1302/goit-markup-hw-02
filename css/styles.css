@@ -35,7 +35,7 @@ body {
 }
 
 .header-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -54,6 +54,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-black-color);
+}
+.header-menu-link:hover, 
+.header-menu-link:focus {
+    color: var(--active-color);
+}
+
+.header-address {
+    font-style:normal;
 }
 
 .header-address-link {
@@ -75,7 +83,9 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    color: var(--primary-white-color);}
+    color: var(--primary-white-color);
+    text-align: center
+}
 
 .hero-button {
     font-family: inherit;
@@ -88,7 +98,8 @@ body {
     cursor: pointer;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
     background-color: var(--active-color);
 }
 
@@ -113,7 +124,7 @@ body {
 .doing-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -129,11 +140,15 @@ body {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-black-color);
+}
+
+.team-item {
+    background-color: var(--primary-white-color);
 }
 
 .team-subtitle {
@@ -157,7 +172,7 @@ body {
 }
 
 .footer-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway',sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -166,7 +181,7 @@ body {
     color: var(--secondary-accent-color);
 }
 
-.footer-logo span {
+.span-logo-footer {
     color: var(--secondary-white-color);
 }
 
@@ -191,7 +206,8 @@ body {
     cursor: pointer;
 }
 
-.projects-button:hover {
+.projects-button:hover,
+.projects-button:focus {
     color: var(--primary-white-color);
     background-color: var(--active-color);
 }
