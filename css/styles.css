@@ -19,16 +19,8 @@ body {
 
 .link:active {
     color: var(--active-color);
-    text-decoration: underline;
 }
 
-.address {
-        text-decoration: none;
-}
-
-.address:active {
-    color: var(--active-color);
-}
 
 .list {
     list-style-type: none;
@@ -55,9 +47,11 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-black-color);
 }
+
 .header-menu-link:hover, 
 .header-menu-link:focus {
     color: var(--active-color);
+    text-decoration: underline;
 }
 
 .header-address {
@@ -71,6 +65,10 @@ body {
     color: var(--primary-accent-color);
 }
 
+.header-address-link:hover,
+.header-address-link:focus {
+    color: var(--active-color);
+}
 
 /**-----------------HERO-------------------*/
 
@@ -225,4 +223,5 @@ body {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        color: var(--primary-accent-color);
 }
