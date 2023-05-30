@@ -51,7 +51,6 @@ body {
 .header-menu-link:hover, 
 .header-menu-link:focus {
     color: var(--active-color);
-    text-decoration: underline;
 }
 
 .header-address {
